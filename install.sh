@@ -185,13 +185,13 @@ function install_linuxqq() {
         if [ "${package_installer}" = "rpm" ]; then
             qq_download_url="https://dldir1.qq.com/qqfile/qq/QQNT/c773cdf7/linuxqq_3.2.19-39038_x86_64.rpm"
         elif [ "${package_installer}" = "dpkg" ]; then
-            qq_download_url="https://dldir1.qq.com/qqfile/qq/QQNT/c773cdf7/linuxqq_3.2.19-39038_amd64.deb"
+            qq_download_url="https://software.openkylin.top/openkylin/yangtze/pool/main/deb/linuxqq/extra/1/linuxqq_3.2.29-49738_amd64.deb"
         fi
     elif [ "${system_arch}" = "arm64" ]; then
         if [ "${package_installer}" = "rpm" ]; then
             qq_download_url="https://dldir1.qq.com/qqfile/qq/QQNT/c773cdf7/linuxqq_3.2.19-39038_aarch64.rpm"
         elif [ "${package_installer}" = "dpkg" ]; then
-            qq_download_url="https://dldir1.qq.com/qqfile/qq/QQNT/c773cdf7/linuxqq_3.2.19-39038_arm64.deb"
+            qq_download_url="https://github.com/Kiru-Sama/NapCatQQ-full/releases/download/linuxqq-arm64-3.2.35-54395/linuxqq_3.2.35-54395_arm64.deb"
         fi
     fi
 
