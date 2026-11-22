@@ -141,7 +141,7 @@ function download_napcat() {
     else
         log "开始下载NapCat安装包,请稍等..."
         network_test
-        napcat_download_url="${target_proxy:+${target_proxy}/}https://github.com/Kiru-Sama/NapCatQQ-full/releases/latest/download/NapCat.Shell.zip"
+        napcat_download_url="${target_proxy:+${target_proxy}/}https://github.com/Kiru-Sama/NapCatQQ-full/releases/download/v4.18.42/NapCat.Shell.zip"
         curl -k -L -# "${napcat_download_url}" -o "${default_file}"
         if [ $? -ne 0 ]; then
             log "文件下载失败, 请检查错误。或者手动下载压缩包并放在脚本同目录下"
